@@ -1,0 +1,62 @@
+[
+  {
+    "Firstname": "Robert",
+    "Lastname": "Lewandowski",
+    "Height": 180,
+    "Weight": 89,
+    "Club": "Barcelona",
+    "Apps": 51,
+    "Goals": 65,
+    "Assists": 31
+  },
+  {
+    "Firstname": "Erling",
+    "Lastname": "Haaland",
+    "Height": 195,
+    "Weight": 92,
+    "Club": "City",
+    "Apps": 54,
+    "Goals": 44,
+    "Assists": 21
+  },
+  {
+    "Firstname": "Thibault",
+    "Lastname": "Courtois",
+    "Height": 202,
+    "Weight": 104,
+    "Club": "Real",
+    "Apps": 17,
+    "Goals": 0,
+    "Assists": 1
+  },
+  {
+    "Firstname": "Harry",
+    "Lastname": "Kane",
+    "Height": 183,
+    "Weight": 88,
+    "Club": "Bayern",
+    "Apps": 24,
+    "Goals": 12,
+    "Assists": 7
+  },
+  {
+    "Firstname": "Vinicius",
+    "Lastname": "Junior",
+    "Height": 176,
+    "Weight": 81,
+    "Club": "Real",
+    "Apps": 44,
+    "Goals": 34,
+    "Assists": 11
+  },
+  {
+    "Firstname": "Kylian",
+    "Lastname": "Mbappe",
+    "Height": 186,
+    "Weight": 91,
+    "Club": "PSG",
+    "Apps": 31,
+    "Goals": 40,
+    "Assists": 4
+  }
+]
