@@ -30,7 +30,7 @@ print(f'Value in column {column} row {row}: {value}')
 print(f'Value type: {value_type}')
 print('##############')
 
-# Uruchamianie klasy JSONProcessoraaaaa
+# Uruchamianie klasy JSONProcessor
 json_processor = JSONProcessor(json_file_path)
 json_object_count = json_processor.count_objects()
 json_absolute_path = json_processor.get_absolute_path()
