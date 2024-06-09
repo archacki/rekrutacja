@@ -1,13 +1,12 @@
 import os
 import sys
 
+from Processors.CSVProcessor import CSVProcessor
+from Processors.JSONProcessor import JSONProcessor
+
 # Dodanie folderu Processors do ścieżki modułów Pythona
 processors_path = os.path.join(os.path.dirname(__file__), 'Processors')
 sys.path.append(processors_path)
-
-# Upewnij się, że nazwy plików są poprawne i odpowiadają nazwom plików
-from CSVProcessor import CSVProcessor
-from JSONProcessor import JSONProcessor
 
 # Pobieranie danych od użytkownika
 column = int(input('Column: '))
@@ -31,7 +30,7 @@ print(f'Value in column {column} row {row}: {value}')
 print(f'Value type: {value_type}')
 print('##############')
 
-# Uruchamianie klasy JSONProcessor
+# Uruchamianie klasy JSONProcessoraaaaa
 json_processor = JSONProcessor(json_file_path)
 json_object_count = json_processor.count_objects()
 json_absolute_path = json_processor.get_absolute_path()
