@@ -1,6 +1,5 @@
 import os
 import sys
-
 from Processors.CSVProcessor import CSVProcessor
 from Processors.JSONProcessor import JSONProcessor
 
